@@ -206,6 +206,12 @@
           <span>1.3 Pendorong (3 Item)</span>
           <span id="tabBadge-1.3" class="ml-1 px-1.5 py-0.2 bg-slate-200 text-slate-700 rounded text-[10px]">97.9%</span>
         </button>
+        <button type="button" onclick="window.SKPMApp.switchTab('std4')" id="tabBtn-std4" class="tab-btn px-3 py-2 rounded-lg text-emerald-950 hover:text-emerald-800 hover:bg-emerald-50 flex items-center gap-1.5 whitespace-nowrap cursor-pointer">
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span class="font-extrabold text-emerald-900">👨‍🏫 Standard 4 PdPc (Pencerapan Guru)</span>
+          <span id="tabBadge-std4" class="ml-1 px-1.5 py-0.2 bg-emerald-100 text-emerald-800 rounded text-[10px] font-bold">48 Guru • 5 Pentadbir</span>
+        </button>
+
         <button type="button" onclick="window.SKPMApp.switchTab('evidens')" id="tabBtn-evidens" class="tab-btn px-3 py-2 rounded-lg text-slate-600 hover:text-skrg-700 hover:bg-slate-100 flex items-center gap-1.5 whitespace-nowrap cursor-pointer">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
           <span>Pengurusan Evidens</span>
@@ -724,7 +730,211 @@
       </div>
     </div>
 
-  </main>
+  
+
+    <!-- ============================================================== -->
+    <!-- TAB: STANDARD 4 PdPc (PENCERAPAN GURU OLEH PENTADBIR)          -->
+    <!-- ============================================================== -->
+    <div id="tabContent-std4" class="tab-content hidden space-y-6">
+
+      <!-- HERO BANNER -->
+      <div class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-teal-950 rounded-2xl p-6 text-white shadow-md relative overflow-hidden border border-emerald-800/40">
+        <div class="relative z-10 max-w-4xl">
+          <div class="flex flex-wrap items-center gap-2 mb-2">
+            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+              Modul Pencerapan PdPc Terkini
+            </span>
+            <span class="text-xs text-emerald-200/80">• SKPM Kualiti@Sekolah</span>
+            <span class="text-xs text-emerald-200/80">• SK Ranggu Tawau</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">Standard 4: Pembelajaran dan Pemudahcaraan (PdPc)</h2>
+          <p class="text-emerald-100/90 text-sm mt-2 leading-relaxed">
+            Sistem pengurusan pencerapan berjadual SK Ranggu. Setiap pentadbir (Guru Besar & Barisan Penolong Kanan) bertanggungjawab mencerap, membimbing pedagogi, dan mengisi skor Standard 4 bagi guru di bawah seliaan masing-masing mengikut Fasa 1 dan Fasa 2.
+          </p>
+          <div class="mt-4 flex flex-wrap items-center gap-4 text-xs font-medium text-emerald-200">
+            <span class="flex items-center gap-1.5 bg-emerald-900/60 px-3 py-1 rounded-lg border border-emerald-700/50">
+              <span>👥</span> 48 Orang Guru
+            </span>
+            <span class="flex items-center gap-1.5 bg-emerald-900/60 px-3 py-1 rounded-lg border border-emerald-700/50">
+              <span>👑</span> 5 Orang Pentadbir Penilai
+            </span>
+            <span class="flex items-center gap-1.5 bg-emerald-900/60 px-3 py-1 rounded-lg border border-emerald-700/50">
+              <span>📊</span> 8 Aspek Rubrik KPM
+            </span>
+            <span class="flex items-center gap-1.5 bg-emerald-900/60 px-3 py-1 rounded-lg border border-emerald-700/50">
+              <span>🔗</span> Terintegrasi ke Standard 1.1.4
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUPERVISOR SELECTION / FILTER CONTAINER -->
+      <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm space-y-3">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2 border-b border-slate-100">
+          <div>
+            <h3 class="text-sm font-extrabold text-slate-900 uppercase tracking-tight flex items-center gap-1.5">
+              <span>👑</span> Pilihan Pentadbir Penilai (Guru Seliaan Masing-Masing)
+            </h3>
+            <p class="text-xs text-slate-500 mt-0.5">
+              Klik nama pentadbir di bawah untuk melihat senarai guru yang diselia dan terus mengisi / mengemas kini skor pencerapan:
+            </p>
+          </div>
+          <div class="text-[11px] text-slate-400 font-medium">
+            Sesi Persekolahan 2026/2027
+          </div>
+        </div>
+
+        <!-- Filter buttons rendered dynamically by JS -->
+        <div id="std4SupervisorFilterContainer" class="flex flex-wrap items-center gap-2 pt-1">
+          <!-- Populated by window.SKPMApp.renderStandard4Module() -->
+        </div>
+
+        <!-- Active Supervisor Banner -->
+        <div id="std4ActiveSupervisorBanner" class="p-3 bg-emerald-50/80 border border-emerald-200 rounded-xl text-xs text-emerald-900 flex flex-wrap items-center justify-between gap-2">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- 4 TOP SUMMARY STAT CARDS -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        
+        <!-- Total Supervised Teachers -->
+        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Guru Seliaan</span>
+            <span class="p-2 bg-emerald-50 text-emerald-700 rounded-lg text-sm">👥</span>
+          </div>
+          <div class="mt-3 flex items-baseline justify-between">
+            <span class="text-2xl sm:text-3xl font-extrabold text-slate-900" id="std4StatTotalTeachers">48 Guru</span>
+            <span class="text-xs font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-700">SK Ranggu</span>
+          </div>
+          <div class="mt-2 text-[11px] text-slate-500">
+            Termasuk Sidang Pagi & Petang
+          </div>
+        </div>
+
+        <!-- Fasa 1 Completed -->
+        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Pencerapan Fasa 1</span>
+            <span class="p-2 bg-blue-50 text-blue-700 rounded-lg text-sm">📅</span>
+          </div>
+          <div class="mt-3 flex items-baseline justify-between">
+            <span class="text-2xl sm:text-3xl font-extrabold text-blue-950" id="std4StatF1">48 / 48 (100%)</span>
+            <span class="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">Selesai</span>
+          </div>
+          <div class="mt-2 text-[11px] text-slate-500">
+            Pencerapan Mac - Julai 2026
+          </div>
+        </div>
+
+        <!-- Fasa 2 Completed -->
+        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Pencerapan Fasa 2</span>
+            <span class="p-2 bg-indigo-50 text-indigo-700 rounded-lg text-sm">📝</span>
+          </div>
+          <div class="mt-3 flex items-baseline justify-between">
+            <span class="text-2xl sm:text-3xl font-extrabold text-indigo-950" id="std4StatF2">42 / 48 (88%)</span>
+            <span class="text-xs font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">Aktif</span>
+          </div>
+          <div class="mt-2 text-[11px] text-slate-500">
+            Pencerapan Ogos - Dis 2026
+          </div>
+        </div>
+
+        <!-- Average Score Card -->
+        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Purata Skor Standard 4</span>
+            <span class="p-2 bg-amber-50 text-amber-700 rounded-lg text-sm">⭐</span>
+          </div>
+          <div class="mt-3 flex items-baseline justify-between">
+            <span class="text-2xl sm:text-3xl font-extrabold text-emerald-700" id="std4StatAvgScore">88.50%</span>
+            <span id="std4StatAvgBadge" class="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800">BAIK</span>
+          </div>
+          <div class="mt-2 text-[11px] text-slate-500">
+            Skala Rubrik 8 Aspek KPM
+          </div>
+        </div>
+
+      </div>
+
+      <!-- STANDARD 1 INTEGRATION CALLOUT -->
+      <div class="bg-gradient-to-r from-blue-950 via-indigo-900 to-skrg-900 text-white rounded-xl p-4 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-3 text-xs">
+        <div class="space-y-1">
+          <div class="flex items-center gap-2">
+            <span class="bg-blue-400/20 text-blue-200 border border-blue-400/30 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider">🔗 Integrasi Standard 1</span>
+            <span class="font-bold text-sm">Item 1.1.4: PGB Sebagai Peneraju Instruksional PdP</span>
+          </div>
+          <p class="text-blue-100 text-[11px] leading-relaxed">
+            Purata skor pencerapan Standard 4 sekolah (<strong id="std4LinkAvgScore" class="text-amber-300">--%</strong>) secara langsung membuktikan ketetapan pencerapan instruksional dijalankan secara berjadual, menyeluruh dan berkesan di bawah Standard 1.
+          </p>
+        </div>
+        <button type="button" onclick="window.SKPMApp.jumpToItem('1.1.4')" class="px-3.5 py-2 bg-white text-blue-950 font-bold rounded-lg hover:bg-blue-50 transition shadow whitespace-nowrap self-start md:self-center cursor-pointer">
+          Buka Item 1.1.4 di Standard 1 →
+        </button>
+      </div>
+
+      <!-- TEACHER TABLE CONTAINER & TOOLBAR -->
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+        
+        <!-- Toolbar -->
+        <div class="p-4 border-b border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-slate-50/50">
+          <div class="flex items-center gap-2 flex-1 max-w-md">
+            <div class="relative w-full">
+              <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400 text-xs">🔍</span>
+              <input type="text" id="std4SearchInput" oninput="window.SKPMApp.setStd4Search(this.value)" placeholder="Cari nama guru, mata pelajaran, atau kelas..." class="w-full pl-8 pr-3 py-2 text-xs border border-slate-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500">
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2 flex-wrap">
+            <select id="std4PhaseFilter" onchange="window.SKPMApp.setStd4PhaseFilter(this.value)" class="text-xs border border-slate-300 rounded-lg px-3 py-2 bg-white font-medium">
+              <option value="all">Semua Fasa (F1 & F2)</option>
+              <option value="Fasa 1">Fasa 1 Sahaja</option>
+              <option value="Fasa 2">Fasa 2 Sahaja</option>
+            </select>
+
+            <button type="button" onclick="window.SKPMApp.exportStd4Excel()" class="px-3 py-2 rounded-lg text-xs font-bold bg-emerald-600 text-white hover:bg-emerald-700 shadow-sm flex items-center gap-1.5 transition cursor-pointer">
+              <span>📊</span>
+              <span>Eksport Excel (.xlsx)</span>
+            </button>
+
+            <button type="button" onclick="window.print()" class="px-3 py-2 rounded-lg text-xs font-bold bg-white border border-slate-300 text-slate-700 hover:bg-slate-100 flex items-center gap-1.5 transition cursor-pointer">
+              <span>🖨️</span>
+              <span>Cetak Senarai</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Table -->
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="bg-slate-100 text-slate-700 text-[11px] font-extrabold uppercase tracking-wider border-b border-slate-200">
+                <th class="py-3 px-3">Guru & Mata Pelajaran</th>
+                <th class="py-3 px-3">Pentadbir Penilai</th>
+                <th class="py-3 px-3 text-center">Fasa 1</th>
+                <th class="py-3 px-3 text-center">Fasa 2</th>
+                <th class="py-3 px-3 text-center">Purata Skor</th>
+                <th class="py-3 px-3 text-right">Tindakan Pentadbir</th>
+              </tr>
+            </thead>
+            <tbody id="std4TableBody" class="divide-y divide-slate-100">
+              <!-- Populated by window.SKPMApp.renderStandard4Module() -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="p-3 bg-slate-50 border-t border-slate-200 text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <span>Menunjukkan rekod guru SK Ranggu. Klik <strong>📝 F1</strong> atau <strong>📝 F2</strong> untuk membuka instrumen penskoran.</span>
+          <span class="text-[11px] text-slate-400">Instrumen Standard 4 SKPM Kualiti@Sekolah KPM</span>
+        </div>
+      </div>
+
+    </div>
+
+</main>
 
   <!-- FOOTER -->
   <footer class="no-print bg-white border-t border-slate-200 mt-12 py-6 text-xs text-slate-500">
@@ -869,7 +1079,115 @@
     </div>
   </div>
 
-  <!-- LOAD APPLICATION SCRIPT -->
+  
+  <!-- MODAL PENSKORAN STANDARD 4 -->
+  <div id="std4Modal" class="no-print fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
+    <div class="bg-white rounded-2xl max-w-3xl w-full my-6 shadow-2xl border border-slate-200 flex flex-col max-h-[92vh]">
+      
+      <!-- Sticky Modal Header with Live Score Preview -->
+      <div class="px-6 py-4 border-b border-slate-200 flex items-center justify-between bg-slate-50 rounded-t-2xl sticky top-0 z-10">
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="text-[10px] font-black uppercase tracking-wider bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded border border-emerald-300">
+              Standard 4 PdPc
+            </span>
+            <span class="text-xs font-bold text-slate-500" id="std4ModalPhaseTitle">Fasa 1</span>
+          </div>
+          <h3 class="text-base font-extrabold text-slate-900 mt-0.5" id="std4ModalTeacherName">Nama Guru</h3>
+          <p class="text-xs text-slate-500" id="std4ModalTeacherMeta">Subjek • Kelas</p>
+        </div>
+
+        <!-- Live Score Display Card -->
+        <div class="flex items-center gap-3">
+          <div class="text-right">
+            <div class="text-[10px] uppercase font-bold text-slate-400">Skor Standard 4</div>
+            <div class="text-2xl font-black text-emerald-700 leading-none" id="std4ModalLiveScore">85.00%</div>
+            <div class="mt-0.5" id="std4ModalLiveTarafContainer">
+              <span id="std4ModalLiveTaraf" class="px-2 py-0.5 rounded-full text-[10px] font-black border bg-blue-100 text-blue-800 border-blue-300">BAIK</span>
+            </div>
+          </div>
+          <button type="button" onclick="window.SKPMApp.closeStd4Modal()" class="text-slate-400 hover:text-slate-600 text-xl font-bold ml-2 cursor-pointer">✕</button>
+        </div>
+      </div>
+
+      <!-- Modal Body (Scrollable) -->
+      <div class="p-6 overflow-y-auto space-y-5 text-xs flex-1">
+        
+        <!-- Pentadbir & Maklumat Sesi Pencerapan -->
+        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-3">
+          <div class="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center justify-between">
+            <span>Butiran Sesi Pencerapan</span>
+            <span class="text-slate-500 font-normal">Pentadbir Penilai: <strong id="std4ModalSupervisorName" class="text-slate-900 font-bold">-</strong></span>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+            <div>
+              <label class="block font-bold text-slate-700 mb-1">Tarikh Pencerapan:</label>
+              <input type="date" id="std4ModalDate" class="w-full border border-slate-300 rounded-lg p-2 text-xs bg-white">
+            </div>
+            <div>
+              <label class="block font-bold text-slate-700 mb-1">Masa:</label>
+              <input type="text" id="std4ModalTime" placeholder="08:30 - 09:30" class="w-full border border-slate-300 rounded-lg p-2 text-xs bg-white">
+            </div>
+            <div>
+              <label class="block font-bold text-slate-700 mb-1">Mata Pelajaran:</label>
+              <input type="text" id="std4ModalSubject" class="w-full border border-slate-300 rounded-lg p-2 text-xs bg-white">
+            </div>
+            <div>
+              <label class="block font-bold text-slate-700 mb-1">Kelas:</label>
+              <input type="text" id="std4ModalClass" class="w-full border border-slate-300 rounded-lg p-2 text-xs bg-white">
+            </div>
+          </div>
+
+          <div>
+            <label class="block font-bold text-slate-700 mb-1">Tajuk / Topik PdPc:</label>
+            <input type="text" id="std4ModalTopic" placeholder="Contoh: Unit 4 - Interaksi Haiwan & Tumbuhan..." class="w-full border border-slate-300 rounded-lg p-2 text-xs bg-white">
+          </div>
+        </div>
+
+        <!-- Rubrik 8 Aspek KPM -->
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <h4 class="font-extrabold text-sm text-slate-900 uppercase tracking-tight">Penskoran 8 Aspek Standard 4 KPM:</h4>
+            <span class="text-[11px] text-slate-500">Skala 1 (Lemah) hingga 4 (Cemerlang)</span>
+          </div>
+          <div id="std4RubricsContainer" class="space-y-2.5">
+            <!-- Populated dynamically with interactive score buttons -->
+          </div>
+        </div>
+
+        <!-- Ulasan Kekuatan Guru -->
+        <div>
+          <label class="block font-bold text-slate-700 mb-1">Kekuatan Guru Dalam PdPc:</label>
+          <textarea id="std4ModalStrength" rows="2" placeholder="Catatkan kekuatan guru, contoh: Pengurusan masa sangat cekap, aktiviti berpusatkan murid aktif..." class="w-full border border-slate-300 rounded-lg p-2.5 text-xs bg-white focus:ring-2 focus:ring-emerald-500"></textarea>
+        </div>
+
+        <!-- Cadangan Penambahbaikan -->
+        <div>
+          <label class="block font-bold text-slate-700 mb-1">Cadangan Bimbingan & Tindakan Susulan Pentadbir:</label>
+          <textarea id="std4ModalFeedback" rows="2" placeholder="Catatkan bimbingan penambahbaikan, contoh: Perluaskan soalan KBAT aras menganalisis & cipta..." class="w-full border border-slate-300 rounded-lg p-2.5 text-xs bg-white focus:ring-2 focus:ring-emerald-500"></textarea>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="px-6 py-3.5 border-t border-slate-200 flex items-center justify-between bg-slate-50 rounded-b-2xl">
+        <button type="button" onclick="window.SKPMApp.closeStd4Modal()" class="px-4 py-2 border border-slate-300 rounded-xl text-xs font-bold text-slate-600 hover:bg-slate-100 transition cursor-pointer">
+          Batal
+        </button>
+        <button type="button" onclick="window.SKPMApp.saveStd4FromModal()" class="px-5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold shadow-md transition flex items-center gap-1.5 cursor-pointer">
+          <span>💾</span>
+          <span>Simpan Skor Pencerapan</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CONTAINER PRINT A4 STANDARD 4 (PRINT ONLY) -->
+  <div id="std4PrintSheet" class="print-only"></div>
+
+<!-- LOAD APPLICATION SCRIPT -->
   <script src="app.js"></script>
 </body>
 </html>

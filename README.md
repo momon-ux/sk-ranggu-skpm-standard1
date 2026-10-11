@@ -58,6 +58,41 @@ PGB berperanan sebagai pemimpin berimpak tinggi yang berupaya menggembleng dan m
 
 ---
 
+
+---
+
+## 👨‍🏫 Modul Baharu: Standard 4 PdPc (Pencerapan Guru Mengikut Pentadbir)
+
+Sistem kini dilengkapi dengan modul pencerapan penuh **Standard 4 SKPM: Pembelajaran dan Pemudahcaraan (PdPc)** yang diagihkan mengikut 5 pentadbir penilai dan 48 orang guru SK Ranggu:
+
+### 👑 Agihan Pentadbir & Guru Seliaan:
+1. **Encik Yunus bin Patarai (Guru Besar / PGB):**
+   - Menyelia **8 orang guru** (Barisan Penolong Kanan, Guru Data/Penyelaras SKPM & Ketua Panitia Kanan).
+2. **Puan Rahmatiah binti Mohd Juda (PK Pentadbiran):**
+   - Menyelia **9 orang guru** (Guru Mata Pelajaran Teras Bahasa, Sains & Matematik Sidang Pagi).
+3. **Puan Komala binti Joseph (PK Hal Ehwal Murid):**
+   - Menyelia **9 orang guru** (Guru Pendidikan Islam, Bahasa Arab & Guru Bimbingan dan Kaunseling).
+4. **Puan Warnah binti Sira (PK Kokurikulum):**
+   - Menyelia **9 orang guru** (Guru PJK, Pendidikan Seni Visual, RBT & Muzik).
+5. **Encik Emran bin Hj Selamat (PK Petang):**
+   - Menyelia **13 orang guru** (Guru Tahap 1 Tahun 1, 2, dan 3 Sidang Petang).
+
+### 📝 Ciri-Ciri Modul Standard 4:
+- **Penapis Pentadbir Interaktif:** Setiap pentadbir boleh menapis hanya senarai guru seliaan mereka dengan satu klik.
+- **Penskoran 8 Rubrik KPM Rasmi:**
+  - 4.1.1: Guru Sebagai Perancang (Wajaran 10%)
+  - 4.2.1: Guru Sebagai Pengawal Proses (Wajaran 10%)
+  - 4.2.2: Guru Sebagai Pengawal Suasana (Wajaran 5%)
+  - 4.3.1: Guru Sebagai Pembimbing (Wajaran 15%)
+  - 4.4.1: Guru Sebagai Pendorong Minda (Wajaran 25%)
+  - 4.4.2: Guru Sebagai Pendorong Emosi (Wajaran 5%)
+  - 4.5.1: Guru Sebagai Penilai (Wajaran 10%)
+  - 4.6.1: Murid Sebagai Pembelajar Aktif (Wajaran 20%)
+- **Kiraan Skor Automatik & Taraf Pencapaian:** Mengira peratusan berwajaran dan taraf kualiti (Cemerlang $\ge 90\%$, Baik $80-89.99\%$).
+- **Borang Cetakan A4 Standard 4 Rasmi:** Menjana borang pencerapan individu lengkap dengan maklumat PdPc, skor rubrik, catatan kekuatan, bimbingan penambahbaikan, dan ruangan tandatangan.
+- **Eksport Excel Pelbagai Lembaran:** Rumusan pentadbir, senarai 48 guru, dan perincian skor rubrik.
+- **Integrasi Langsung ke Standard 1.1.4:** Purata skor Standard 4 PdPc sekolah diselaraskan terus ke dalam evidens dan justifikasi Item 1.1.4 (PGB Sebagai Peneraju Instruksional).
+
 ## 👥 Pengurusan Tertinggi SK Ranggu
 - **Guru Besar (PGB):** Encik Yunus bin Patarai
 - **PK Pentadbiran:** Puan Rahmatiah binti Mohd Juda

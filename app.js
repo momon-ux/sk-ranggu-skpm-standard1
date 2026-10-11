@@ -1,5 +1,5 @@
 /**
- * SKPM Kualiti@Sekolah — Standard 1 Kepimpinan (Penilaian PGB Interaktif)
+ * SKPM Kualiti@Sekolah — Standard 1 Kepimpinan & Standard 4 PdPc
  * Sekolah Kebangsaan Ranggu, Tawau, Sabah (Kod: XBA3037)
  * Hak Cipta Terpelihara (c) 2026 JKSKPM SK Ranggu
  */
@@ -25,9 +25,2682 @@
       pkPetangName: "EMRAN BIN HJ SELAMAT",
       guruDataName: "MOHAMMAD FIKREY BIN ABDUL GAPAR"
     },
-    scoringMode: "skas", // "skas" (Mod idMe Terkini) or "skpmg2" (Klasik)
+    scoringMode: "skas",
     filterText: "",
     filterAspect: "all",
+    activeSupervisor: "all",
+    std4SearchQuery: "",
+    std4PhaseFilter: "all",
+    supervisors: [
+      {
+            "id": "gb",
+            "name": "YUNUS BIN PATARAI",
+            "role": "Guru Besar (PGB)",
+            "badge": "PGB"
+      },
+      {
+            "id": "pk1",
+            "name": "RAHMATIAH BINTI MOHD JUDA",
+            "role": "PK Pentadbiran (PK 1)",
+            "badge": "PK 1"
+      },
+      {
+            "id": "pkhem",
+            "name": "KOMALA BINTI JOSEPH",
+            "role": "PK Hal Ehwal Murid",
+            "badge": "PK HEM"
+      },
+      {
+            "id": "pkkoku",
+            "name": "WARNAH BINTI SIRA",
+            "role": "PK Kokurikulum",
+            "badge": "PK KOKU"
+      },
+      {
+            "id": "pkpetang",
+            "name": "EMRAN BIN HJ SELAMAT",
+            "role": "PK Petang",
+            "badge": "PK Petang"
+      }
+],
+    teachers: [
+      {
+            "id": "t01",
+            "name": "RAHMATIAH BINTI MOHD JUDA",
+            "subject": "Bahasa Melayu",
+            "class": "6 Iltizam",
+            "supervisor": "YUNUS BIN PATARAI",
+            "role": "PK Pentadbiran"
+      },
+      {
+            "id": "t02",
+            "name": "KOMALA BINTI JOSEPH",
+            "subject": "Bahasa Inggeris",
+            "class": "6 Jayyid",
+            "supervisor": "YUNUS BIN PATARAI",
+            "role": "PK HEM"
+      },
+      {
+            "id": "t03",
+            "name": "WARNAH BINTI SIRA",
+            "subject": "Sains",
+            "class": "5 Iltizam",
+            "supervisor": "YUNUS BIN PATARAI",
+            "role": "PK Kokurikulum"
+      },
+      {
+            "id": "t04",
+            "name": "EMRAN BIN HJ SELAMAT",
+            "subject": "Matematik",
+            "class": "3 Iltizam",
+            "supervisor": "YUNUS BIN PATARAI",
+            "role": "PK Petang"
+      },
+      {
+            "id": "t05",
+            "name": "MOHAMMAD FIKREY BIN ABDUL GAPAR",
+            "subject": "Reka Bentuk & Teknologi",
+            "class": "6 Jayyid",
+            "supervisor": "YUNUS BIN PATARAI",
+            "role": "Penyelaras ICT / Guru Data"
+      },
+      {
+            "id": "t06",
+            "name": "AG KU KEMAINDDRA BIN PG MOHD TAIB",
+            "subject": "Bahasa Melayu",
+            "class": "6 Iltizam",
+            "supervisor": "YUNUS BIN PATARAI",
+            "role": "Guru Kelas 6 Iltizam"
+      },
+      {
+            "id": "t07",
+            "name": "HASNAN BIN MAT ZIN",
+            "subject": "Sains",
+            "class": "6 Mumtaz",
+            "supervisor": "YUNUS BIN PATARAI",
+            "role": "Ketua Panitia Sains"
+      },
+      {
+            "id": "t08",
+            "name": "DARMAWATI BTE LOKKONG",
+            "subject": "Bahasa Melayu",
+            "class": "5 Jayyid",
+            "supervisor": "YUNUS BIN PATARAI",
+            "role": "Ketua Panitia Bahasa Melayu"
+      },
+      {
+            "id": "t09",
+            "name": "AHAD BIN JAAFAR",
+            "subject": "Matematik",
+            "class": "5 Iltizam",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "role": "Ketua Panitia Matematik"
+      },
+      {
+            "id": "t10",
+            "name": "AINATUN NADHIRAH BINTI DHARMAWI",
+            "subject": "Bahasa Inggeris",
+            "class": "5 Mumtaz",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "role": "Ketua Panitia Bahasa Inggeris"
+      },
+      {
+            "id": "t11",
+            "name": "ASMADI BIN LAJJAKASI",
+            "subject": "Bahasa Melayu",
+            "class": "4 Iltizam",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "role": "Guru Akademik"
+      },
+      {
+            "id": "t12",
+            "name": "FARIDAH BINTI ACHO",
+            "subject": "Sains",
+            "class": "4 Jayyid",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "role": "Guru Akademik"
+      },
+      {
+            "id": "t13",
+            "name": "FARIDAH BINTI SUNU",
+            "subject": "Matematik",
+            "class": "4 Mumtaz",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "role": "Guru Akademik"
+      },
+      {
+            "id": "t14",
+            "name": "HALIM BIN BIDI",
+            "subject": "Pendidikan Islam",
+            "class": "5 Iltizam",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "role": "Guru Akademik"
+      },
+      {
+            "id": "t15",
+            "name": "HAMSIAH BINTI HAMID",
+            "subject": "Bahasa Melayu",
+            "class": "4 Iltizam",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "role": "Guru Akademik"
+      },
+      {
+            "id": "t16",
+            "name": "JUNAID BIN NURDIN",
+            "subject": "Bahasa Inggeris",
+            "class": "4 Jayyid",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "role": "Guru Akademik"
+      },
+      {
+            "id": "t17",
+            "name": "MARIANA BINTI KASSIM",
+            "subject": "Sejarah",
+            "class": "5 Mumtaz",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "role": "Ketua Panitia Sejarah"
+      },
+      {
+            "id": "t18",
+            "name": "JAIBY BIN JULIAN",
+            "subject": "Pendidikan Islam",
+            "class": "6 Jayyid",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "role": "Ketua Panitia Pendidikan Islam"
+      },
+      {
+            "id": "t19",
+            "name": "JAINAH BINTI SULAIMAN",
+            "subject": "Bahasa Melayu",
+            "class": "5 Mumtaz",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "role": "Guru Akademik"
+      },
+      {
+            "id": "t20",
+            "name": "MARINI BINTI LADI",
+            "subject": "Matematik",
+            "class": "6 Iltizam",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "role": "Guru Akademik"
+      },
+      {
+            "id": "t21",
+            "name": "MASTURAH BINTI TUDA",
+            "subject": "Bahasa Inggeris",
+            "class": "6 Mumtaz",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "role": "Guru Akademik"
+      },
+      {
+            "id": "t22",
+            "name": "MOHD ALFAIZAL BIN DAUD",
+            "subject": "Pendidikan Islam",
+            "class": "4 Iltizam",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "role": "Guru Disiplin"
+      },
+      {
+            "id": "t23",
+            "name": "MOHD MUEMIN BIN MOHD AMIN JAPAR",
+            "subject": "Bahasa Arab",
+            "class": "5 Jayyid",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "role": "Ketua Panitia Bahasa Arab"
+      },
+      {
+            "id": "t24",
+            "name": "MUHAMADIAN BIN SUAIBU",
+            "subject": "Pendidikan Islam",
+            "class": "5 Iltizam",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "role": "Guru SPBT"
+      },
+      {
+            "id": "t25",
+            "name": "NECHI BINTI SERUNAI",
+            "subject": "Bahasa Melayu",
+            "class": "4 Mumtaz",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "role": "Guru Kebajikan"
+      },
+      {
+            "id": "t26",
+            "name": "NOOR SYAFIQAH NADHIRAH BINTI JAMALUDDIN",
+            "subject": "Bimbingan & Kaunseling",
+            "class": "Semua Kelas",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "role": "Guru Kaunseling Sepenuh Masa"
+      },
+      {
+            "id": "t27",
+            "name": "NORIMAH BINTI JOYO REJO",
+            "subject": "Pendidikan Jasmani",
+            "class": "5 Iltizam",
+            "supervisor": "WARNAH BINTI SIRA",
+            "role": "Ketua Panitia PJK"
+      },
+      {
+            "id": "t28",
+            "name": "NORLINA BINTI BAGWAS",
+            "subject": "Pendidikan Seni Visual",
+            "class": "6 Jayyid",
+            "supervisor": "WARNAH BINTI SIRA",
+            "role": "Ketua Panitia PSV"
+      },
+      {
+            "id": "t29",
+            "name": "NOZE BINTI TUKIJAN",
+            "subject": "Reka Bentuk & Teknologi",
+            "class": "5 Jayyid",
+            "supervisor": "WARNAH BINTI SIRA",
+            "role": "Ketua Panitia RBT"
+      },
+      {
+            "id": "t30",
+            "name": "NUR FAEZAH BINTI BANTALANI",
+            "subject": "Pendidikan Muzik",
+            "class": "4 Iltizam",
+            "supervisor": "WARNAH BINTI SIRA",
+            "role": "Ketua Panitia Muzik"
+      },
+      {
+            "id": "t31",
+            "name": "NURUL ANISA BINTI SAPARUDIN",
+            "subject": "Pendidikan Jasmani",
+            "class": "6 Iltizam",
+            "supervisor": "WARNAH BINTI SIRA",
+            "role": "Setiausaha Sukan"
+      },
+      {
+            "id": "t32",
+            "name": "RASMAWATI BINTI TAUSE",
+            "subject": "Sains",
+            "class": "4 Iltizam",
+            "supervisor": "WARNAH BINTI SIRA",
+            "role": "Guru Akademik"
+      },
+      {
+            "id": "t33",
+            "name": "RINI BINTI DAUD",
+            "subject": "Matematik",
+            "class": "5 Jayyid",
+            "supervisor": "WARNAH BINTI SIRA",
+            "role": "Setiausaha Kokurikulum"
+      },
+      {
+            "id": "t34",
+            "name": "ROBIATUL AIDAWYAH",
+            "subject": "Pendidikan Islam",
+            "class": "4 Jayyid",
+            "supervisor": "WARNAH BINTI SIRA",
+            "role": "Penyelaras Badan Beruniform"
+      },
+      {
+            "id": "t35",
+            "name": "RONI BIN BACHO",
+            "subject": "Pendidikan Jasmani",
+            "class": "5 Mumtaz",
+            "supervisor": "WARNAH BINTI SIRA",
+            "role": "Penyelaras Kelab & Persatuan"
+      },
+      {
+            "id": "t36",
+            "name": "ROSIDIAN BIN IDRIS",
+            "subject": "Bahasa Melayu",
+            "class": "2 Iltizam",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Kelas 2 Iltizam"
+      },
+      {
+            "id": "t37",
+            "name": "ROSMINAH BINTI SAPAR",
+            "subject": "Matematik",
+            "class": "1 Iltizam",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Kelas 1 Iltizam"
+      },
+      {
+            "id": "t38",
+            "name": "RUHAYA BINTI AHMAD",
+            "subject": "Bahasa Inggeris",
+            "class": "3 Iltizam",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Kelas 3 Iltizam"
+      },
+      {
+            "id": "t39",
+            "name": "SALSABILA BINTI SHAHRUDDIN",
+            "subject": "Bahasa Melayu",
+            "class": "1 Jayyid",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Kelas 1 Jayyid"
+      },
+      {
+            "id": "t40",
+            "name": "SITI JAWARA BINTI LUKMAN",
+            "subject": "Pendidikan Islam",
+            "class": "2 Jayyid",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Kelas 2 Jayyid"
+      },
+      {
+            "id": "t41",
+            "name": "SITI NAURIN FADZILAH BINTI JALAL",
+            "subject": "Matematik",
+            "class": "3 Jayyid",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Kelas 3 Jayyid"
+      },
+      {
+            "id": "t42",
+            "name": "SITI RABIA BIN IBRAHIM",
+            "subject": "Bahasa Inggeris",
+            "class": "2 Mumtaz",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Kelas 2 Mumtaz"
+      },
+      {
+            "id": "t43",
+            "name": "SUNARTI BINTI TAPPA",
+            "subject": "Sains",
+            "class": "3 Mumtaz",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Kelas 3 Mumtaz"
+      },
+      {
+            "id": "t44",
+            "name": "TANJANG BIN TURE",
+            "subject": "Pendidikan Jasmani",
+            "class": "1 Mumtaz",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Kelas 1 Mumtaz"
+      },
+      {
+            "id": "t45",
+            "name": "WAFA FARHANA BINTI ABD KADIR",
+            "subject": "Bahasa Arab",
+            "class": "2 Iltizam",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Panitia Bahasa Arab"
+      },
+      {
+            "id": "t46",
+            "name": "WAN MUHAMAD YUSUF BIN WAN ABDUL AZIZ",
+            "subject": "Pendidikan Islam",
+            "class": "3 Iltizam",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Panitia Pendidikan Islam"
+      },
+      {
+            "id": "t47",
+            "name": "YUSNI BINTI WAHJUDIN",
+            "subject": "Pendidikan Seni Visual",
+            "class": "2 Jayyid",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Sidang Petang"
+      },
+      {
+            "id": "t48",
+            "name": "ZAMRIE BIN OMAR ALI",
+            "subject": "Bahasa Melayu",
+            "class": "3 Mumtaz",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "role": "Guru Disiplin Petang"
+      }
+],
+    pencerapanList: [
+      {
+            "id": "penc-f1-t01",
+            "teacherId": "t01",
+            "teacherName": "RAHMATIAH BINTI MOHD JUDA",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Melayu",
+            "class": "6 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 3,
+                  "4.2.1": 3,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 3,
+                  "4.6.1": 3
+            },
+            "totalScore": 77.5,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t01",
+            "teacherId": "t01",
+            "teacherName": "RAHMATIAH BINTI MOHD JUDA",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Melayu",
+            "class": "6 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t02",
+            "teacherId": "t02",
+            "teacherName": "KOMALA BINTI JOSEPH",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Inggeris",
+            "class": "6 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t02",
+            "teacherId": "t02",
+            "teacherName": "KOMALA BINTI JOSEPH",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Inggeris",
+            "class": "6 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t03",
+            "teacherId": "t03",
+            "teacherName": "WARNAH BINTI SIRA",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Sains",
+            "class": "5 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t03",
+            "teacherId": "t03",
+            "teacherName": "WARNAH BINTI SIRA",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Sains",
+            "class": "5 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t04",
+            "teacherId": "t04",
+            "teacherName": "EMRAN BIN HJ SELAMAT",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Matematik",
+            "class": "3 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t04",
+            "teacherId": "t04",
+            "teacherName": "EMRAN BIN HJ SELAMAT",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Matematik",
+            "class": "3 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t05",
+            "teacherId": "t05",
+            "teacherName": "MOHAMMAD FIKREY BIN ABDUL GAPAR",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Reka Bentuk & Teknologi",
+            "class": "6 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 3
+            },
+            "totalScore": 91.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t05",
+            "teacherId": "t05",
+            "teacherName": "MOHAMMAD FIKREY BIN ABDUL GAPAR",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Reka Bentuk & Teknologi",
+            "class": "6 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t06",
+            "teacherId": "t06",
+            "teacherName": "AG KU KEMAINDDRA BIN PG MOHD TAIB",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Melayu",
+            "class": "6 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 3,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 3,
+                  "4.6.1": 4
+            },
+            "totalScore": 95.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t06",
+            "teacherId": "t06",
+            "teacherName": "AG KU KEMAINDDRA BIN PG MOHD TAIB",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Melayu",
+            "class": "6 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t07",
+            "teacherId": "t07",
+            "teacherName": "HASNAN BIN MAT ZIN",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Sains",
+            "class": "6 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 3,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 91.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t07",
+            "teacherId": "t07",
+            "teacherName": "HASNAN BIN MAT ZIN",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Sains",
+            "class": "6 Mumtaz",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t08",
+            "teacherId": "t08",
+            "teacherName": "DARMAWATI BTE LOKKONG",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Melayu",
+            "class": "5 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t08",
+            "teacherId": "t08",
+            "teacherName": "DARMAWATI BTE LOKKONG",
+            "supervisor": "YUNUS BIN PATARAI",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Melayu",
+            "class": "5 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t09",
+            "teacherId": "t09",
+            "teacherName": "AHAD BIN JAAFAR",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Matematik",
+            "class": "5 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 3
+            },
+            "totalScore": 91.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t09",
+            "teacherId": "t09",
+            "teacherName": "AHAD BIN JAAFAR",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Matematik",
+            "class": "5 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t10",
+            "teacherId": "t10",
+            "teacherName": "AINATUN NADHIRAH BINTI DHARMAWI",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Inggeris",
+            "class": "5 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t10",
+            "teacherId": "t10",
+            "teacherName": "AINATUN NADHIRAH BINTI DHARMAWI",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Inggeris",
+            "class": "5 Mumtaz",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t11",
+            "teacherId": "t11",
+            "teacherName": "ASMADI BIN LAJJAKASI",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Melayu",
+            "class": "4 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 3,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 3,
+                  "4.6.1": 4
+            },
+            "totalScore": 95.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t11",
+            "teacherId": "t11",
+            "teacherName": "ASMADI BIN LAJJAKASI",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Melayu",
+            "class": "4 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t12",
+            "teacherId": "t12",
+            "teacherName": "FARIDAH BINTI ACHO",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Sains",
+            "class": "4 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t12",
+            "teacherId": "t12",
+            "teacherName": "FARIDAH BINTI ACHO",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Sains",
+            "class": "4 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t13",
+            "teacherId": "t13",
+            "teacherName": "FARIDAH BINTI SUNU",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Matematik",
+            "class": "4 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 3,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 3
+            },
+            "totalScore": 82.5,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t13",
+            "teacherId": "t13",
+            "teacherName": "FARIDAH BINTI SUNU",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Matematik",
+            "class": "4 Mumtaz",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t14",
+            "teacherId": "t14",
+            "teacherName": "HALIM BIN BIDI",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Islam",
+            "class": "5 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t14",
+            "teacherId": "t14",
+            "teacherName": "HALIM BIN BIDI",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Islam",
+            "class": "5 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t15",
+            "teacherId": "t15",
+            "teacherName": "HAMSIAH BINTI HAMID",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Melayu",
+            "class": "4 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t15",
+            "teacherId": "t15",
+            "teacherName": "HAMSIAH BINTI HAMID",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Melayu",
+            "class": "4 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t16",
+            "teacherId": "t16",
+            "teacherName": "JUNAID BIN NURDIN",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Inggeris",
+            "class": "4 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 3,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 3,
+                  "4.6.1": 4
+            },
+            "totalScore": 88.75,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t16",
+            "teacherId": "t16",
+            "teacherName": "JUNAID BIN NURDIN",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Inggeris",
+            "class": "4 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t17",
+            "teacherId": "t17",
+            "teacherName": "MARIANA BINTI KASSIM",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Sejarah",
+            "class": "5 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 3
+            },
+            "totalScore": 91.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t17",
+            "teacherId": "t17",
+            "teacherName": "MARIANA BINTI KASSIM",
+            "supervisor": "RAHMATIAH BINTI MOHD JUDA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Sejarah",
+            "class": "5 Mumtaz",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t18",
+            "teacherId": "t18",
+            "teacherName": "JAIBY BIN JULIAN",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Islam",
+            "class": "6 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t18",
+            "teacherId": "t18",
+            "teacherName": "JAIBY BIN JULIAN",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Islam",
+            "class": "6 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t19",
+            "teacherId": "t19",
+            "teacherName": "JAINAH BINTI SULAIMAN",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Melayu",
+            "class": "5 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 3,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 91.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t19",
+            "teacherId": "t19",
+            "teacherName": "JAINAH BINTI SULAIMAN",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Melayu",
+            "class": "5 Mumtaz",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t20",
+            "teacherId": "t20",
+            "teacherName": "MARINI BINTI LADI",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Matematik",
+            "class": "6 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t20",
+            "teacherId": "t20",
+            "teacherName": "MARINI BINTI LADI",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Matematik",
+            "class": "6 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t21",
+            "teacherId": "t21",
+            "teacherName": "MASTURAH BINTI TUDA",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Inggeris",
+            "class": "6 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 3,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 3,
+                  "4.6.1": 3
+            },
+            "totalScore": 86.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t21",
+            "teacherId": "t21",
+            "teacherName": "MASTURAH BINTI TUDA",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Inggeris",
+            "class": "6 Mumtaz",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t22",
+            "teacherId": "t22",
+            "teacherName": "MOHD ALFAIZAL BIN DAUD",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Islam",
+            "class": "4 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t22",
+            "teacherId": "t22",
+            "teacherName": "MOHD ALFAIZAL BIN DAUD",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Islam",
+            "class": "4 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t23",
+            "teacherId": "t23",
+            "teacherName": "MOHD MUEMIN BIN MOHD AMIN JAPAR",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Arab",
+            "class": "5 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t23",
+            "teacherId": "t23",
+            "teacherName": "MOHD MUEMIN BIN MOHD AMIN JAPAR",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Arab",
+            "class": "5 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t24",
+            "teacherId": "t24",
+            "teacherName": "MUHAMADIAN BIN SUAIBU",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Islam",
+            "class": "5 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t24",
+            "teacherId": "t24",
+            "teacherName": "MUHAMADIAN BIN SUAIBU",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Islam",
+            "class": "5 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t25",
+            "teacherId": "t25",
+            "teacherName": "NECHI BINTI SERUNAI",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Melayu",
+            "class": "4 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 3,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 3
+            },
+            "totalScore": 82.5,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t25",
+            "teacherId": "t25",
+            "teacherName": "NECHI BINTI SERUNAI",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Melayu",
+            "class": "4 Mumtaz",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t26",
+            "teacherId": "t26",
+            "teacherName": "NOOR SYAFIQAH NADHIRAH BINTI JAMALUDDIN",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bimbingan & Kaunseling",
+            "class": "Semua Kelas",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 3,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 3,
+                  "4.6.1": 4
+            },
+            "totalScore": 95.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t26",
+            "teacherId": "t26",
+            "teacherName": "NOOR SYAFIQAH NADHIRAH BINTI JAMALUDDIN",
+            "supervisor": "KOMALA BINTI JOSEPH",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bimbingan & Kaunseling",
+            "class": "Semua Kelas",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t27",
+            "teacherId": "t27",
+            "teacherName": "NORIMAH BINTI JOYO REJO",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Jasmani",
+            "class": "5 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t27",
+            "teacherId": "t27",
+            "teacherName": "NORIMAH BINTI JOYO REJO",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Jasmani",
+            "class": "5 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t28",
+            "teacherId": "t28",
+            "teacherName": "NORLINA BINTI BAGWAS",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Seni Visual",
+            "class": "6 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t28",
+            "teacherId": "t28",
+            "teacherName": "NORLINA BINTI BAGWAS",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Seni Visual",
+            "class": "6 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t29",
+            "teacherId": "t29",
+            "teacherName": "NOZE BINTI TUKIJAN",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Reka Bentuk & Teknologi",
+            "class": "5 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 3
+            },
+            "totalScore": 91.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t29",
+            "teacherId": "t29",
+            "teacherName": "NOZE BINTI TUKIJAN",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Reka Bentuk & Teknologi",
+            "class": "5 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t30",
+            "teacherId": "t30",
+            "teacherName": "NUR FAEZAH BINTI BANTALANI",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Muzik",
+            "class": "4 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t30",
+            "teacherId": "t30",
+            "teacherName": "NUR FAEZAH BINTI BANTALANI",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Muzik",
+            "class": "4 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t31",
+            "teacherId": "t31",
+            "teacherName": "NURUL ANISA BINTI SAPARUDIN",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Jasmani",
+            "class": "6 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 3,
+                  "4.2.1": 3,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 3,
+                  "4.6.1": 4
+            },
+            "totalScore": 86.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t31",
+            "teacherId": "t31",
+            "teacherName": "NURUL ANISA BINTI SAPARUDIN",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Jasmani",
+            "class": "6 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t32",
+            "teacherId": "t32",
+            "teacherName": "RASMAWATI BINTI TAUSE",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Sains",
+            "class": "4 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t32",
+            "teacherId": "t32",
+            "teacherName": "RASMAWATI BINTI TAUSE",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Sains",
+            "class": "4 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t33",
+            "teacherId": "t33",
+            "teacherName": "RINI BINTI DAUD",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Matematik",
+            "class": "5 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 3
+            },
+            "totalScore": 91.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t33",
+            "teacherId": "t33",
+            "teacherName": "RINI BINTI DAUD",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Matematik",
+            "class": "5 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t34",
+            "teacherId": "t34",
+            "teacherName": "ROBIATUL AIDAWYAH",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Islam",
+            "class": "4 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t34",
+            "teacherId": "t34",
+            "teacherName": "ROBIATUL AIDAWYAH",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Islam",
+            "class": "4 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t35",
+            "teacherId": "t35",
+            "teacherName": "RONI BIN BACHO",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Jasmani",
+            "class": "5 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t35",
+            "teacherId": "t35",
+            "teacherName": "RONI BIN BACHO",
+            "supervisor": "WARNAH BINTI SIRA",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Jasmani",
+            "class": "5 Mumtaz",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t36",
+            "teacherId": "t36",
+            "teacherName": "ROSIDIAN BIN IDRIS",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Melayu",
+            "class": "2 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 3,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 3,
+                  "4.6.1": 4
+            },
+            "totalScore": 95.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t36",
+            "teacherId": "t36",
+            "teacherName": "ROSIDIAN BIN IDRIS",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Melayu",
+            "class": "2 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t37",
+            "teacherId": "t37",
+            "teacherName": "ROSMINAH BINTI SAPAR",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Matematik",
+            "class": "1 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 3,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 3
+            },
+            "totalScore": 82.5,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t37",
+            "teacherId": "t37",
+            "teacherName": "ROSMINAH BINTI SAPAR",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Matematik",
+            "class": "1 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t38",
+            "teacherId": "t38",
+            "teacherName": "RUHAYA BINTI AHMAD",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Inggeris",
+            "class": "3 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t38",
+            "teacherId": "t38",
+            "teacherName": "RUHAYA BINTI AHMAD",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Inggeris",
+            "class": "3 Iltizam",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t39",
+            "teacherId": "t39",
+            "teacherName": "SALSABILA BINTI SHAHRUDDIN",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Melayu",
+            "class": "1 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t39",
+            "teacherId": "t39",
+            "teacherName": "SALSABILA BINTI SHAHRUDDIN",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Melayu",
+            "class": "1 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t40",
+            "teacherId": "t40",
+            "teacherName": "SITI JAWARA BINTI LUKMAN",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Islam",
+            "class": "2 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t40",
+            "teacherId": "t40",
+            "teacherName": "SITI JAWARA BINTI LUKMAN",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Pendidikan Islam",
+            "class": "2 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t41",
+            "teacherId": "t41",
+            "teacherName": "SITI NAURIN FADZILAH BINTI JALAL",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Matematik",
+            "class": "3 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 3,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 3,
+                  "4.6.1": 3
+            },
+            "totalScore": 86.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t41",
+            "teacherId": "t41",
+            "teacherName": "SITI NAURIN FADZILAH BINTI JALAL",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Matematik",
+            "class": "3 Jayyid",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 93.75,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t42",
+            "teacherId": "t42",
+            "teacherName": "SITI RABIA BIN IBRAHIM",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Inggeris",
+            "class": "2 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f2-t42",
+            "teacherId": "t42",
+            "teacherName": "SITI RABIA BIN IBRAHIM",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 2",
+            "date": "2026-09-22",
+            "time": "09:30 - 10:30",
+            "subject": "Bahasa Inggeris",
+            "class": "2 Mumtaz",
+            "topic": "Pengukuhan & Pentaksiran Bilik Darjah",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pelaksanaan aktiviti PAK21 cemerlang dengan kawalan murid yang mantap.",
+            "feedback": "Tahniah atas peningkatan kualiti penyampaian dan pencapaian objektif PdPc."
+      },
+      {
+            "id": "penc-f1-t43",
+            "teacherId": "t43",
+            "teacherName": "SUNARTI BINTI TAPPA",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Sains",
+            "class": "3 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 3,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 91.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f1-t44",
+            "teacherId": "t44",
+            "teacherName": "TANJANG BIN TURE",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Jasmani",
+            "class": "1 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f1-t45",
+            "teacherId": "t45",
+            "teacherName": "WAFA FARHANA BINTI ABD KADIR",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Arab",
+            "class": "2 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 3,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 3
+            },
+            "totalScore": 91.25,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f1-t46",
+            "teacherId": "t46",
+            "teacherName": "WAN MUHAMAD YUSUF BIN WAN ABDUL AZIZ",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Islam",
+            "class": "3 Iltizam",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 3,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 3,
+                  "4.4.2": 4,
+                  "4.5.1": 3,
+                  "4.6.1": 4
+            },
+            "totalScore": 88.75,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f1-t47",
+            "teacherId": "t47",
+            "teacherName": "YUSNI BINTI WAHJUDIN",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Pendidikan Seni Visual",
+            "class": "2 Jayyid",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      },
+      {
+            "id": "penc-f1-t48",
+            "teacherId": "t48",
+            "teacherName": "ZAMRIE BIN OMAR ALI",
+            "supervisor": "EMRAN BIN HJ SELAMAT",
+            "phase": "Fasa 1",
+            "date": "2026-05-18",
+            "time": "08:30 - 09:30",
+            "subject": "Bahasa Melayu",
+            "class": "3 Mumtaz",
+            "topic": "Kemahiran Bahasa & Pemahaman Konsep",
+            "scores": {
+                  "4.1.1": 4,
+                  "4.2.1": 4,
+                  "4.2.2": 4,
+                  "4.3.1": 4,
+                  "4.4.1": 4,
+                  "4.4.2": 4,
+                  "4.5.1": 4,
+                  "4.6.1": 4
+            },
+            "totalScore": 100.0,
+            "strength": "Pengurusan kelas teratur dan penglibatan murid aktif secara kolaboratif.",
+            "feedback": "Kekalkan bimbingan berhemah dan perluaskan soalan berasaskan KBAT."
+      }
+],
     items: [
       // ================= ASPEK 1.1: PENERAJU =================
       {
@@ -425,6 +3098,18 @@
         const parsed = JSON.parse(stored);
         if (parsed && Array.isArray(parsed.items) && parsed.items.length === 12) {
           appData = parsed;
+          if (!appData.supervisors || !appData.supervisors.length) {
+            appData.supervisors = DEFAULT_DATA.supervisors;
+          }
+          if (!appData.teachers || !appData.teachers.length) {
+            appData.teachers = DEFAULT_DATA.teachers;
+          }
+          if (!appData.pencerapanList || !appData.pencerapanList.length) {
+            appData.pencerapanList = DEFAULT_DATA.pencerapanList;
+          }
+          if (!appData.activeSupervisor) {
+            appData.activeSupervisor = 'all';
+          }
         }
       }
     } catch (e) {
@@ -662,6 +3347,9 @@
 
     // Charts Update
     updateCharts(scores);
+    if (typeof renderStandard4Module === 'function') {
+      renderStandard4Module();
+    }
   }
 
   // Summary Table Rendering
@@ -1303,6 +3991,794 @@
     }
   }
 
+
+
+  // ==============================================================
+  // MODUL STANDARD 4: PEMBELAJARAN DAN PEMUDAHCARAAN (PdPc)
+  // SKPM KUALITI@SEKOLAH — SISTEM PENCERAPAN GURU OLEH PENTADBIR
+  // ==============================================================
+
+  const STD4_RUBRICS = [
+    { code: "4.1.1", weight: 0.10, title: "Guru Sebagai Perancang", desc: "Menyediakan RPH mengikut DSKP, menentukan strategi pentaksiran & BBM." },
+    { code: "4.2.1", weight: 0.10, title: "Guru Sebagai Pengawal Proses Pembelajaran", desc: "Mengelola isi pelajaran, peruntukan masa & penyertaan aktif murid." },
+    { code: "4.2.2", weight: 0.05, title: "Guru Sebagai Pengawal Suasana Pembelajaran", desc: "Mengawal suasana bilik darjah, komunikasi, keselamatan & persekitaran kondusif." },
+    { code: "4.3.1", weight: 0.15, title: "Guru Sebagai Pembimbing", desc: "Membimbing murid menguasai konsep, menyelesaikan masalah & menggunakan bahan." },
+    { code: "4.4.1", weight: 0.25, title: "Guru Sebagai Pendorong Minda", desc: "Merangsang pemikiran kritis/kreatif murid, soalan mencapah/KBAT & kolaboratif." },
+    { code: "4.4.2", weight: 0.05, title: "Guru Sebagai Pendorong Emosi", desc: "Memberi pujian/penghargaan, memupuk keyakinan & prihatin keperluan murid." },
+    { code: "4.5.1", weight: 0.10, title: "Guru Sebagai Penilai", desc: "Melaksanakan pentaksiran formatif (PBD), aktiviti pemulihan/pengayaan & menyemak tugasan." },
+    { code: "4.6.1", weight: 0.20, title: "Murid Sebagai Pembelajar Aktif", desc: "Murid berkolaborasi, berkomunikasi secara aktif, bertanya soalan & menguasai pembelajaran." }
+  ];
+
+  let std4ActiveSupervisor = 'all';
+  let std4SearchQuery = '';
+  let std4PhaseFilter = 'all';
+  let std4CurrentModalRecord = null;
+  let std4CurrentModalScores = {};
+
+  function calculateStd4Score(scores) {
+    if (!scores) return 0;
+    let total = 0;
+    STD4_RUBRICS.forEach(r => {
+      const raw = parseFloat(scores[r.code]) || 0;
+      total += (raw / 4) * (r.weight * 100);
+    });
+    return Math.round(total * 100) / 100;
+  }
+
+  function getStd4Taraf(score) {
+    if (score >= 90.0) return { label: "CEMERLANG", badge: "bg-emerald-100 text-emerald-800 border-emerald-300", color: "text-emerald-700" };
+    if (score >= 80.0) return { label: "BAIK", badge: "bg-blue-100 text-blue-800 border-blue-300", color: "text-blue-700" };
+    if (score >= 50.0) return { label: "SEDERHANA", badge: "bg-amber-100 text-amber-800 border-amber-300", color: "text-amber-700" };
+    if (score >= 20.0) return { label: "LEMAH", badge: "bg-orange-100 text-orange-800 border-orange-300", color: "text-orange-700" };
+    return { label: "SANGAT LEMAH", badge: "bg-rose-100 text-rose-800 border-rose-300", color: "text-rose-700" };
+  }
+
+  function setSupervisorFilter(supName) {
+    std4ActiveSupervisor = supName;
+    renderStandard4Module();
+  }
+
+  function setStd4PhaseFilter(phase) {
+    std4PhaseFilter = phase;
+    renderStandard4Module();
+  }
+
+  function setStd4Search(term) {
+    std4SearchQuery = (term || '').toLowerCase().trim();
+    renderStandard4Module();
+  }
+
+  function calculateOverallStd4Average() {
+    const list = appData.pencerapanList || [];
+    if (!list.length) return 0;
+    let sum = 0;
+    list.forEach(p => {
+      sum += (p.totalScore || calculateStd4Score(p.scores));
+    });
+    return Math.round((sum / list.length) * 100) / 100;
+  }
+
+  function renderStandard4Module() {
+    const teachersList = appData.teachers || [];
+    const pencList = appData.pencerapanList || [];
+    const supList = appData.supervisors || [];
+
+    // Filtered Teachers
+    let filteredTeachers = teachersList.slice();
+    if (std4ActiveSupervisor !== 'all') {
+      filteredTeachers = filteredTeachers.filter(t => t.supervisor === std4ActiveSupervisor);
+    }
+    if (std4SearchQuery) {
+      filteredTeachers = filteredTeachers.filter(t =>
+        t.name.toLowerCase().includes(std4SearchQuery) ||
+        (t.subject && t.subject.toLowerCase().includes(std4SearchQuery)) ||
+        (t.class && t.class.toLowerCase().includes(std4SearchQuery)) ||
+        (t.role && t.role.toLowerCase().includes(std4SearchQuery))
+      );
+    }
+
+    // Overall School Average for Badge & Standard 1 link
+    const overallAvg = calculateOverallStd4Average();
+    const overallTaraf = getStd4Taraf(overallAvg);
+
+    // Update top nav badge
+    const navBadge = document.getElementById('tabBadge-std4');
+    if (navBadge) {
+      navBadge.innerText = `${teachersList.length} Guru • ${overallAvg.toFixed(1)}%`;
+    }
+
+    // Update link banner to Standard 1
+    const linkBadge = document.getElementById('std4LinkAvgScore');
+    if (linkBadge) {
+      linkBadge.innerText = `${overallAvg.toFixed(2)}% (${overallTaraf.label})`;
+    }
+
+    // 1. Render Supervisor Filter Buttons
+    const supContainer = document.getElementById('std4SupervisorFilterContainer');
+    if (supContainer) {
+      let html = '';
+      
+      // 'All' button
+      const allActive = std4ActiveSupervisor === 'all';
+      const allClass = allActive
+        ? "bg-emerald-700 text-white shadow-md ring-2 ring-emerald-500 font-bold"
+        : "bg-white text-slate-700 hover:bg-emerald-50 hover:text-emerald-800 border border-slate-200 font-medium";
+      html += `<button type="button" onclick="window.SKPMApp.setSupervisorFilter('all')" class="px-3.5 py-2 rounded-xl text-xs flex items-center gap-1.5 transition cursor-pointer ${allClass}">
+        <span>👑</span>
+        <span>Semua Pentadbir</span>
+        <span class="px-1.5 py-0.5 rounded-full text-[10px] ${allActive ? 'bg-emerald-900 text-emerald-100' : 'bg-slate-100 text-slate-600'}">${teachersList.length} Guru</span>
+      </button>`;
+
+      supList.forEach(sup => {
+        const supTeachers = teachersList.filter(t => t.supervisor === sup.name);
+        const isActive = std4ActiveSupervisor === sup.name;
+        const btnClass = isActive
+          ? "bg-emerald-700 text-white shadow-md ring-2 ring-emerald-500 font-bold"
+          : "bg-white text-slate-700 hover:bg-emerald-50 hover:text-emerald-800 border border-slate-200 font-medium";
+        
+        let shortName = sup.name.replace("BIN ", "B. ").replace("BINTI ", "BT. ").replace("HJ ", "HJ. ");
+        let icon = sup.id === 'gb' ? '👨‍💼' : '👩‍💼';
+        if (sup.id === 'pkpetang') icon = '👨‍💼';
+
+        html += `<button type="button" onclick="window.SKPMApp.setSupervisorFilter('${sup.name}')" class="px-3.5 py-2 rounded-xl text-xs flex items-center gap-1.5 transition cursor-pointer ${btnClass}">
+          <span>${icon}</span>
+          <span>${shortName}</span>
+          <span class="px-1.5 py-0.5 rounded-full text-[10px] ${isActive ? 'bg-emerald-900 text-emerald-100' : 'bg-slate-100 text-slate-600'}">${supTeachers.length} Guru</span>
+        </button>`;
+      });
+
+      supContainer.innerHTML = html;
+    }
+
+    // 2. Render Active Supervisor Banner
+    const activeBanner = document.getElementById('std4ActiveSupervisorBanner');
+    if (activeBanner) {
+      if (std4ActiveSupervisor === 'all') {
+        activeBanner.innerHTML = `<div><strong>Paparan Semasa:</strong> <span class="text-emerald-950 font-bold">Semua 5 Pentadbir & 48 Guru SK Ranggu</span> • Keseluruhan Sidang Pagi & Petang</div>
+        <span class="text-[11px] text-emerald-800 bg-emerald-100/90 px-2.5 py-1 rounded-full font-semibold">Klik nama pentadbir untuk tapis guru seliaan</span>`;
+      } else {
+        const supObj = supList.find(s => s.name === std4ActiveSupervisor);
+        const supTeachers = teachersList.filter(t => t.supervisor === std4ActiveSupervisor);
+        activeBanner.innerHTML = `<div><strong>Pentadbir Bertanggungjawab:</strong> <span class="text-emerald-950 font-extrabold">${std4ActiveSupervisor}</span> (${(supObj && supObj.role) || 'Pentadbir'}) • <strong>${supTeachers.length} Orang Guru</strong> di bawah seliaan terus.</div>
+        <button type="button" onclick="window.SKPMApp.setSupervisorFilter('all')" class="text-[11px] bg-white border border-emerald-300 text-emerald-900 px-2 py-0.5 rounded hover:bg-emerald-100 font-bold">Tunjuk Semua Guru ✕</button>`;
+      }
+    }
+
+    // 3. Calculate Stats for Current Supervisor View
+    let relevantTeachers = teachersList;
+    if (std4ActiveSupervisor !== 'all') {
+      relevantTeachers = teachersList.filter(t => t.supervisor === std4ActiveSupervisor);
+    }
+    const relTeacherIds = new Set(relevantTeachers.map(t => t.id));
+    const relPenc = pencList.filter(p => relTeacherIds.has(p.teacherId));
+    const f1Count = relPenc.filter(p => p.phase === 'Fasa 1').length;
+    const f2Count = relPenc.filter(p => p.phase === 'Fasa 2').length;
+
+    let subSum = 0;
+    relPenc.forEach(p => { subSum += (p.totalScore || calculateStd4Score(p.scores)); });
+    const subAvg = relPenc.length ? (subSum / relPenc.length) : 0;
+    const subTaraf = getStd4Taraf(subAvg);
+
+    // Update 4 Stat Cards
+    const elTotTeachers = document.getElementById('std4StatTotalTeachers');
+    if (elTotTeachers) elTotTeachers.innerText = `${relevantTeachers.length} Guru`;
+
+    const elF1Count = document.getElementById('std4StatF1');
+    if (elF1Count) {
+      const pct = relevantTeachers.length ? Math.round((f1Count / relevantTeachers.length) * 100) : 0;
+      elF1Count.innerText = `${f1Count} / ${relevantTeachers.length} (${pct}%)`;
+    }
+
+    const elF2Count = document.getElementById('std4StatF2');
+    if (elF2Count) {
+      const pct = relevantTeachers.length ? Math.round((f2Count / relevantTeachers.length) * 100) : 0;
+      elF2Count.innerText = `${f2Count} / ${relevantTeachers.length} (${pct}%)`;
+    }
+
+    const elAvgScore = document.getElementById('std4StatAvgScore');
+    if (elAvgScore) elAvgScore.innerText = `${subAvg.toFixed(2)}%`;
+
+    const elAvgBadge = document.getElementById('std4StatAvgBadge');
+    if (elAvgBadge) {
+      elAvgBadge.innerText = subTaraf.label;
+      elAvgBadge.className = `text-[11px] font-bold px-2 py-0.5 rounded-full border ${subTaraf.badge}`;
+    }
+
+    // 4. Render Table
+    const tbody = document.getElementById('std4TableBody');
+    if (tbody) {
+      if (!filteredTeachers.length) {
+        tbody.innerHTML = `<tr><td colspan="6" class="py-8 text-center text-slate-400">Tiada rekod guru ditemui mengikut tapisan semasa.</td></tr>`;
+        return;
+      }
+
+      let rowsHtml = '';
+      filteredTeachers.forEach((t, idx) => {
+        const p1 = pencList.find(p => p.teacherId === t.id && p.phase === 'Fasa 1');
+        const p2 = pencList.find(p => p.teacherId === t.id && p.phase === 'Fasa 2');
+
+        const s1 = p1 ? (p1.totalScore || calculateStd4Score(p1.scores)) : null;
+        const s2 = p2 ? (p2.totalScore || calculateStd4Score(p2.scores)) : null;
+
+        let avg = null;
+        if (s1 !== null && s2 !== null) avg = (s1 + s2) / 2;
+        else if (s1 !== null) avg = s1;
+        else if (s2 !== null) avg = s2;
+
+        const t1 = s1 !== null ? getStd4Taraf(s1) : null;
+        const t2 = s2 !== null ? getStd4Taraf(s2) : null;
+        const tAvg = avg !== null ? getStd4Taraf(avg) : null;
+
+        rowsHtml += `<tr class="border-b border-slate-100 hover:bg-slate-50/80 transition text-xs">
+          <!-- Col 1: No & Teacher Info -->
+          <td class="py-3 px-3">
+            <div class="flex items-start gap-2">
+              <span class="text-slate-400 font-mono text-[11px] mt-0.5 w-6">${idx + 1}.</span>
+              <div>
+                <strong class="text-slate-900 block font-bold text-sm tracking-tight">${t.name}</strong>
+                <div class="flex items-center gap-1.5 mt-0.5">
+                  <span class="px-1.5 py-0.2 rounded bg-slate-100 text-slate-700 text-[10px] font-medium border border-slate-200">${t.role || 'Guru Mata Pelajaran'}</span>
+                  <span class="text-slate-400 text-[10px]">•</span>
+                  <span class="text-slate-500 text-[11px] font-medium">${t.subject} (${t.class})</span>
+                </div>
+              </div>
+            </div>
+          </td>
+
+          <!-- Col 2: Supervisor -->
+          <td class="py-3 px-3 whitespace-nowrap">
+            <span class="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-800 bg-slate-100 px-2 py-1 rounded-md border border-slate-200">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+              ${t.supervisor.replace("BIN ", "B. ").replace("BINTI ", "BT. ")}
+            </span>
+          </td>
+
+          <!-- Col 3: Fasa 1 Score & Status -->
+          <td class="py-3 px-3 text-center whitespace-nowrap">
+            ${p1 ? `
+              <div class="flex flex-col items-center">
+                <span class="font-extrabold text-sm text-slate-900">${s1.toFixed(1)}%</span>
+                <span class="px-2 py-0.5 rounded-full text-[10px] font-bold border mt-0.5 ${t1.badge}">${t1.label}</span>
+                <span class="text-[10px] text-slate-400 mt-0.5">${p1.date || 'Selesai'}</span>
+              </div>
+            ` : `
+              <span class="inline-block px-2 py-1 rounded bg-slate-100 text-slate-400 text-[11px] font-medium italic">Belum Dicerap</span>
+            `}
+          </td>
+
+          <!-- Col 4: Fasa 2 Score & Status -->
+          <td class="py-3 px-3 text-center whitespace-nowrap">
+            ${p2 ? `
+              <div class="flex flex-col items-center">
+                <span class="font-extrabold text-sm text-slate-900">${s2.toFixed(1)}%</span>
+                <span class="px-2 py-0.5 rounded-full text-[10px] font-bold border mt-0.5 ${t2.badge}">${t2.label}</span>
+                <span class="text-[10px] text-slate-400 mt-0.5">${p2.date || 'Selesai'}</span>
+              </div>
+            ` : `
+              <span class="inline-block px-2 py-1 rounded bg-amber-50 text-amber-700 border border-amber-200 text-[10px] font-bold animate-pulse">Menunggu Fasa 2</span>
+            `}
+          </td>
+
+          <!-- Col 5: Purata Keseluruhan -->
+          <td class="py-3 px-3 text-center whitespace-nowrap bg-slate-50/50">
+            ${avg !== null ? `
+              <div class="flex flex-col items-center">
+                <span class="font-black text-sm text-skrg-900">${avg.toFixed(2)}%</span>
+                <span class="px-2 py-0.5 rounded-full text-[10px] font-bold border mt-0.5 ${tAvg.badge}">${tAvg.label}</span>
+              </div>
+            ` : `
+              <span class="text-slate-400">-</span>
+            `}
+          </td>
+
+          <!-- Col 6: Actions Buttons -->
+          <td class="py-3 px-3 text-right whitespace-nowrap">
+            <div class="flex items-center justify-end gap-1.5">
+              <button type="button" onclick="window.SKPMApp.openStd4Modal('${t.id}', 'Fasa 1')" class="px-2.5 py-1.5 rounded-lg text-xs font-bold ${p1 ? 'bg-slate-100 text-slate-700 hover:bg-blue-50 hover:text-blue-700 border border-slate-300' : 'bg-blue-600 text-white hover:bg-blue-700 shadow-sm'} transition flex items-center gap-1 cursor-pointer" title="Isi / Kemas Kini Fasa 1">
+                <span>📝</span> <span>F1</span>
+              </button>
+
+              <button type="button" onclick="window.SKPMApp.openStd4Modal('${t.id}', 'Fasa 2')" class="px-2.5 py-1.5 rounded-lg text-xs font-bold ${p2 ? 'bg-slate-100 text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 border border-slate-300' : 'bg-emerald-600 text-white hover:bg-emerald-700 shadow-sm'} transition flex items-center gap-1 cursor-pointer" title="Isi / Kemas Kini Fasa 2">
+                <span>📝</span> <span>F2</span>
+              </button>
+
+              <button type="button" onclick="window.SKPMApp.openStd4Print('${t.id}', '${p2 ? 'Fasa 2' : 'Fasa 1'}')" class="p-1.5 rounded-lg text-xs bg-white text-slate-600 hover:text-skrg-700 hover:bg-slate-100 border border-slate-200 transition cursor-pointer" title="Cetak Borang Pencerapan Rasmi A4">
+                <span>🖨️</span>
+              </button>
+            </div>
+          </td>
+        </tr>`;
+      });
+
+      tbody.innerHTML = rowsHtml;
+    }
+  }
+
+  // ==============================================================
+  // MODAL PENSKORAN STANDARD 4
+  // ==============================================================
+
+  function openStd4Modal(teacherId, phase) {
+    const teacher = (appData.teachers || []).find(t => t.id === teacherId);
+    if (!teacher) return;
+
+    let record = (appData.pencerapanList || []).find(p => p.teacherId === teacherId && p.phase === phase);
+    if (!record) {
+      record = {
+        id: "penc-" + phase.toLowerCase().replace(" ", "") + "-" + teacherId,
+        teacherId: teacher.id,
+        teacherName: teacher.name,
+        supervisor: teacher.supervisor,
+        phase: phase,
+        date: new Date().toISOString().slice(0, 10),
+        time: "08:30 - 09:30",
+        subject: teacher.subject,
+        class: teacher.class,
+        topic: "Pembelajaran Standard Kandungan & DSKP Terancang",
+        scores: {
+          "4.1.1": 3,
+          "4.2.1": 3,
+          "4.2.2": 3,
+          "4.3.1": 3,
+          "4.4.1": 3,
+          "4.4.2": 3,
+          "4.5.1": 3,
+          "4.6.1": 3
+        },
+        strength: "Pengurusan PdPc teratur dan murid memberikan respons yang baik.",
+        feedback: "Tingkatkan penyoalan KBAT untuk menggalakkan murid berfikir secara kritis."
+      };
+    }
+
+    std4CurrentModalRecord = JSON.parse(JSON.stringify(record));
+    std4CurrentModalScores = Object.assign({}, std4CurrentModalRecord.scores || {});
+
+    // Populate basic fields
+    const elTeacher = document.getElementById('std4ModalTeacherName');
+    if (elTeacher) elTeacher.innerText = teacher.name;
+
+    const elSubClass = document.getElementById('std4ModalTeacherMeta');
+    if (elSubClass) elSubClass.innerText = `${teacher.role || 'Guru'} • ${teacher.subject} (${teacher.class})`;
+
+    const elSup = document.getElementById('std4ModalSupervisorName');
+    if (elSup) elSup.innerText = teacher.supervisor;
+
+    const elPhase = document.getElementById('std4ModalPhaseTitle');
+    if (elPhase) elPhase.innerText = phase;
+
+    const inpDate = document.getElementById('std4ModalDate');
+    if (inpDate) inpDate.value = record.date || new Date().toISOString().slice(0, 10);
+
+    const inpTime = document.getElementById('std4ModalTime');
+    if (inpTime) inpTime.value = record.time || "08:30 - 09:30";
+
+    const inpSub = document.getElementById('std4ModalSubject');
+    if (inpSub) inpSub.value = record.subject || teacher.subject;
+
+    const inpClass = document.getElementById('std4ModalClass');
+    if (inpClass) inpClass.value = record.class || teacher.class;
+
+    const inpTopic = document.getElementById('std4ModalTopic');
+    if (inpTopic) inpTopic.value = record.topic || "";
+
+    const inpStr = document.getElementById('std4ModalStrength');
+    if (inpStr) inpStr.value = record.strength || "";
+
+    const inpFeed = document.getElementById('std4ModalFeedback');
+    if (inpFeed) inpFeed.value = record.feedback || "";
+
+    // Render Rubrics Form
+    renderStd4ModalRubrics();
+    updateStd4ModalLive();
+
+    const modal = document.getElementById('std4Modal');
+    if (modal) modal.classList.remove('hidden');
+  }
+
+  function renderStd4ModalRubrics() {
+    const container = document.getElementById('std4RubricsContainer');
+    if (!container) return;
+
+    let html = '';
+    STD4_RUBRICS.forEach((r, idx) => {
+      const curScore = std4CurrentModalScores[r.code] || 3;
+      const weightPct = (r.weight * 100).toFixed(0);
+
+      html += `<div class="p-3.5 bg-slate-50 rounded-xl border border-slate-200">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2 border-b border-slate-200">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="font-black text-xs text-skrg-900 bg-skrg-100 px-2 py-0.5 rounded border border-skrg-200">${r.code}</span>
+              <strong class="text-xs text-slate-900">${r.title}</strong>
+              <span class="text-[10px] font-bold text-emerald-800 bg-emerald-100 px-1.5 py-0.2 rounded">Wajaran: ${weightPct}%</span>
+            </div>
+            <p class="text-[11px] text-slate-500 mt-1 leading-relaxed">${r.desc}</p>
+          </div>
+          <div class="flex items-center gap-1 self-end sm:self-center">
+            ${[1, 2, 3, 4].map(val => {
+              const isActive = curScore === val;
+              const labels = { 1: "1: Lemah", 2: "2: Sederhana", 3: "3: Baik", 4: "4: Cemerlang" };
+              const btnClass = isActive
+                ? "bg-emerald-700 text-white font-bold ring-2 ring-emerald-400 shadow-sm"
+                : "bg-white text-slate-700 hover:bg-slate-100 border border-slate-300 font-medium";
+              return `<button type="button" onclick="window.SKPMApp.setModalRubricScore('${r.code}', ${val})" class="px-2 py-1.5 rounded text-[11px] transition cursor-pointer ${btnClass}">
+                ${labels[val]}
+              </button>`;
+            }).join('')}
+          </div>
+        </div>
+        <div class="mt-2 flex justify-between text-[10px] text-slate-500">
+          <span>Skor Mentah: <strong>${curScore} / 4</strong></span>
+          <span>Sumbangan Aspek: <strong class="text-emerald-700">${((curScore / 4) * r.weight * 100).toFixed(2)}%</strong></span>
+        </div>
+      </div>`;
+    });
+
+    container.innerHTML = html;
+  }
+
+  function setModalRubricScore(code, scoreVal) {
+    std4CurrentModalScores[code] = parseInt(scoreVal, 10);
+    renderStd4ModalRubrics();
+    updateStd4ModalLive();
+  }
+
+  function updateStd4ModalLive() {
+    const total = calculateStd4Score(std4CurrentModalScores);
+    const taraf = getStd4Taraf(total);
+
+    const scoreEl = document.getElementById('std4ModalLiveScore');
+    if (scoreEl) scoreEl.innerText = total.toFixed(2) + '%';
+
+    const tarafEl = document.getElementById('std4ModalLiveTaraf');
+    if (tarafEl) {
+      tarafEl.innerText = taraf.label;
+      tarafEl.className = `px-2 py-0.5 rounded-full text-xs font-black border ${taraf.badge}`;
+    }
+  }
+
+  function closeStd4Modal() {
+    const modal = document.getElementById('std4Modal');
+    if (modal) modal.classList.add('hidden');
+    std4CurrentModalRecord = null;
+    std4CurrentModalScores = {};
+  }
+
+  function saveStd4FromModal() {
+    if (!std4CurrentModalRecord) return;
+
+    const inpDate = document.getElementById('std4ModalDate');
+    const inpTime = document.getElementById('std4ModalTime');
+    const inpSub = document.getElementById('std4ModalSubject');
+    const inpClass = document.getElementById('std4ModalClass');
+    const inpTopic = document.getElementById('std4ModalTopic');
+    const inpStr = document.getElementById('std4ModalStrength');
+    const inpFeed = document.getElementById('std4ModalFeedback');
+
+    std4CurrentModalRecord.date = (inpDate && inpDate.value) || new Date().toISOString().slice(0, 10);
+    std4CurrentModalRecord.time = (inpTime && inpTime.value) || "08:30 - 09:30";
+    std4CurrentModalRecord.subject = (inpSub && inpSub.value) || std4CurrentModalRecord.subject;
+    std4CurrentModalRecord.class = (inpClass && inpClass.value) || std4CurrentModalRecord.class;
+    std4CurrentModalRecord.topic = (inpTopic && inpTopic.value) || "Standard Kandungan PdPc";
+    std4CurrentModalRecord.strength = (inpStr && inpStr.value) || "";
+    std4CurrentModalRecord.feedback = (inpFeed && inpFeed.value) || "";
+    std4CurrentModalRecord.scores = Object.assign({}, std4CurrentModalScores);
+    std4CurrentModalRecord.totalScore = calculateStd4Score(std4CurrentModalScores);
+
+    if (!appData.pencerapanList) appData.pencerapanList = [];
+    const existingIdx = appData.pencerapanList.findIndex(p =>
+      p.teacherId === std4CurrentModalRecord.teacherId && p.phase === std4CurrentModalRecord.phase
+    );
+
+    if (existingIdx >= 0) {
+      appData.pencerapanList[existingIdx] = std4CurrentModalRecord;
+    } else {
+      appData.pencerapanList.push(std4CurrentModalRecord);
+    }
+
+    // Also update evidence notes in Standard 1 Item 1.1.4
+    const item1_1_4 = (appData.items || []).find(it => it.id === '1.1.4');
+    if (item1_1_4 && item1_1_4.evidences) {
+      const ev = item1_1_4.evidences.find(e => e.title.includes("Analisis Rumusan Skor Standard 4"));
+      if (ev) {
+        const newAvg = calculateOverallStd4Average();
+        ev.notes = `Purata skor terkini guru SK Ranggu: ${newAvg.toFixed(2)}% (${getStd4Taraf(newAvg).label})`;
+      }
+    }
+
+    const savedTeacherName = std4CurrentModalRecord.teacherName;
+    const savedPhase = std4CurrentModalRecord.phase;
+
+    saveToStorage();
+    renderStandard4Module();
+    renderApp();
+    closeStd4Modal();
+
+    showToast(`Skor pencerapan bagi ${savedTeacherName} (${savedPhase}) berjaya disimpan!`, 'success');
+  }
+
+  // ==============================================================
+  // CETAKAN A4 BORANG STANDARD 4 (RASMI KPM)
+  // ==============================================================
+
+  function openStd4Print(teacherId, phase) {
+    const teacher = (appData.teachers || []).find(t => t.id === teacherId);
+    if (!teacher) return;
+
+    let p = (appData.pencerapanList || []).find(rec => rec.teacherId === teacherId && rec.phase === phase);
+    if (!p) {
+      alert(`Rekod pencerapan untuk ${phase} bagi guru ini belum diisi.`);
+      return;
+    }
+
+    const total = p.totalScore || calculateStd4Score(p.scores);
+    const taraf = getStd4Taraf(total);
+
+    const sheet = document.getElementById('std4PrintSheet');
+    if (!sheet) {
+      window.print();
+      return;
+    }
+
+    let rubricRows = '';
+    STD4_RUBRICS.forEach((r, idx) => {
+      const score = (p.scores && p.scores[r.code]) || 0;
+      const wPct = (r.weight * 100).toFixed(0);
+      const contrib = ((score / 4) * r.weight * 100).toFixed(2);
+      rubricRows += `<tr>
+        <td style="padding: 6px; border: 1px solid #000; text-align: center; font-weight: bold;">${r.code}</td>
+        <td style="padding: 6px; border: 1px solid #000;">
+          <strong>${r.title}</strong><br>
+          <span style="font-size: 10px; color: #444;">${r.desc}</span>
+        </td>
+        <td style="padding: 6px; border: 1px solid #000; text-align: center;">${wPct}%</td>
+        <td style="padding: 6px; border: 1px solid #000; text-align: center; font-weight: bold; font-size: 14px;">${score}</td>
+        <td style="padding: 6px; border: 1px solid #000; text-align: right; font-weight: bold;">${contrib}%</td>
+      </tr>`;
+    });
+
+    sheet.innerHTML = `
+      <div style="font-family: Arial, sans-serif; color: #000; padding: 20px; max-width: 800px; margin: 0 auto; background: #fff;">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #000; padding-bottom: 12px; margin-bottom: 15px;">
+          <div>
+            <h3 style="margin: 0; font-size: 13px; text-transform: uppercase;">KEMENTERIAN PENDIDIKAN MALAYSIA</h3>
+            <h4 style="margin: 2px 0; font-size: 12px;">JABATAN PENDIDIKAN NEGERI SABAH • PPD TAWAU</h4>
+            <h2 style="margin: 2px 0; font-size: 16px; font-weight: bold;">SEKOLAH KEBANGSAAN RANGGU</h2>
+            <p style="margin: 0; font-size: 11px;">Peti Surat 842, 91008 Tawau, Sabah • Kod: <strong>XBA3037</strong></p>
+          </div>
+          <div style="text-align: right;">
+            <div style="border: 2px solid #000; padding: 6px 12px; font-weight: bold; font-size: 12px; background: #f0f0f0;">
+              SKPM KUALITI@SEKOLAH<br>STANDARD 4: PdPc
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-bottom: 15px;">
+          <h2 style="margin: 0; font-size: 15px; font-weight: bold; text-transform: uppercase;">BORANG PENILAIAN PEMBELAJARAN DAN PEMUDAHCARAAN (PdPc)</h2>
+          <p style="margin: 2px 0; font-size: 12px; font-weight: bold; color: #1e3a8a;">SESI 2026/2027 — ${p.phase.toUpperCase()}</p>
+        </div>
+
+        <table style="width: 100%; border-collapse: collapse; font-size: 11px; margin-bottom: 15px; border: 1px solid #000;">
+          <tr>
+            <td style="padding: 5px; width: 18%; background: #f5f5f5; font-weight: bold; border: 1px solid #000;">Nama Guru:</td>
+            <td style="padding: 5px; width: 32%; border: 1px solid #000;"><strong>${teacher.name}</strong></td>
+            <td style="padding: 5px; width: 18%; background: #f5f5f5; font-weight: bold; border: 1px solid #000;">Pentadbir Penilai:</td>
+            <td style="padding: 5px; width: 32%; border: 1px solid #000;"><strong>${teacher.supervisor}</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 5px; background: #f5f5f5; font-weight: bold; border: 1px solid #000;">Mata Pelajaran:</td>
+            <td style="padding: 5px; border: 1px solid #000;">${p.subject || teacher.subject}</td>
+            <td style="padding: 5px; background: #f5f5f5; font-weight: bold; border: 1px solid #000;">Tarikh Pencerapan:</td>
+            <td style="padding: 5px; border: 1px solid #000;">${p.date}</td>
+          </tr>
+          <tr>
+            <td style="padding: 5px; background: #f5f5f5; font-weight: bold; border: 1px solid #000;">Tahun / Kelas:</td>
+            <td style="padding: 5px; border: 1px solid #000;">${p.class || teacher.class}</td>
+            <td style="padding: 5px; background: #f5f5f5; font-weight: bold; border: 1px solid #000;">Masa:</td>
+            <td style="padding: 5px; border: 1px solid #000;">${p.time || '08:30 - 09:30'}</td>
+          </tr>
+          <tr>
+            <td style="padding: 5px; background: #f5f5f5; font-weight: bold; border: 1px solid #000;">Tajuk / Topik:</td>
+            <td colspan="3" style="padding: 5px; border: 1px solid #000;">${p.topic || 'Pelaksanaan PdPc mengikut DSKP'}</td>
+          </tr>
+        </table>
+
+        <h4 style="margin: 0 0 5px 0; font-size: 12px; font-weight: bold;">PERINCIAN SKOR 8 ASPEK STANDARD 4 KPM:</h4>
+        <table style="width: 100%; border-collapse: collapse; font-size: 11px; margin-bottom: 12px; border: 1px solid #000;">
+          <thead>
+            <tr style="background: #e2e8f0;">
+              <th style="padding: 6px; border: 1px solid #000; width: 8%;">Aspek</th>
+              <th style="padding: 6px; border: 1px solid #000; text-align: left;">Kriteria Aspek Standard 4 PdPc</th>
+              <th style="padding: 6px; border: 1px solid #000; width: 12%;">Wajaran</th>
+              <th style="padding: 6px; border: 1px solid #000; width: 14%;">Skor (1-4)</th>
+              <th style="padding: 6px; border: 1px solid #000; width: 14%;">Sumbangan (%)</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rubricRows}
+          </tbody>
+          <tfoot>
+            <tr style="background: #f8fafc; font-weight: bold;">
+              <td colspan="4" style="padding: 8px; border: 1px solid #000; text-align: right; font-size: 12px;">JUMLAH SKOR KESELURUHAN:</td>
+              <td style="padding: 8px; border: 1px solid #000; text-align: right; font-size: 14px; font-weight: 900; color: #1e3a8a;">${total.toFixed(2)}%</td>
+            </tr>
+            <tr style="background: #f8fafc; font-weight: bold;">
+              <td colspan="4" style="padding: 6px; border: 1px solid #000; text-align: right;">TARAF PENCAPAIAN STANDARD 4:</td>
+              <td style="padding: 6px; border: 1px solid #000; text-align: right; font-size: 12px; color: #047857;">${taraf.label}</td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <table style="width: 100%; border-collapse: collapse; font-size: 11px; margin-bottom: 25px; border: 1px solid #000;">
+          <tr>
+            <td style="padding: 8px; width: 50%; vertical-align: top; border: 1px solid #000;">
+              <strong>Kekuatan Guru Dalam PdPc:</strong>
+              <p style="margin: 4px 0 0 0; min-height: 45px; color: #222;">${p.strength || 'Pengurusan bilik darjah teratur dan penyampaian berkesan.'}</p>
+            </td>
+            <td style="padding: 8px; width: 50%; vertical-align: top; border: 1px solid #000;">
+              <strong>Cadangan Bimbingan & Tindakan Susulan:</strong>
+              <p style="margin: 4px 0 0 0; min-height: 45px; color: #222;">${p.feedback || 'Kekalkan kecemerlangan dan perluaskan pendekatan KBAT/PAK-21.'}</p>
+            </td>
+          </tr>
+        </table>
+
+        <div style="display: flex; justify-content: space-between; margin-top: 30px; font-size: 11px;">
+          <div style="text-align: center; width: 40%;">
+            <p style="margin-bottom: 50px;">Tandatangan Guru Yang Dicerap:</p>
+            <div style="border-top: 1px solid #000; padding-top: 4px;">
+              <strong>${teacher.name}</strong><br>
+              Tarikh: ${p.date}
+            </div>
+          </div>
+          <div style="text-align: center; width: 40%;">
+            <p style="margin-bottom: 50px;">Tandatangan Pentadbir Penilai:</p>
+            <div style="border-top: 1px solid #000; padding-top: 4px;">
+              <strong>${teacher.supervisor}</strong><br>
+              Tarikh: ${p.date}
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    window.print();
+  }
+
+  // ==============================================================
+  // EKSPORT EXCEL STANDARD 4 MULTI-SHEET
+  // ==============================================================
+
+  function exportStd4Excel() {
+    if (typeof XLSX === 'undefined') {
+      alert("Pustaka SheetJS belum sedia.");
+      return;
+    }
+
+    try {
+      const teachersList = appData.teachers || [];
+      const pencList = appData.pencerapanList || [];
+      const supList = appData.supervisors || [];
+
+      // Sheet 1: Rumusan Mengikut Pentadbir
+      const sheet1Data = [
+        ["KEMENTERIAN PENDIDIKAN MALAYSIA"],
+        ["SEKOLAH KEBANGSAAN RANGGU, PETI SURAT 842, 91008 TAWAU, SABAH (KOD: XBA3037)"],
+        ["RUMUSAN PENCERAPAN PdPc STANDARD 4 MENGIKUT PENTADBIR — SESI 2026/2027"],
+        [],
+        ["No", "Nama Pentadbir Penilai", "Jawatan Pentadbir", "Bil Guru Seliaan", "Pencerapan Fasa 1 Selesai", "Pencerapan Fasa 2 Selesai", "Purata Skor Fasa 1 (%)", "Purata Skor Fasa 2 (%)", "Purata Keseluruhan (%)", "Taraf Kualiti"]
+      ];
+
+      supList.forEach((sup, idx) => {
+        const supTeachers = teachersList.filter(t => t.supervisor === sup.name);
+        const supIds = new Set(supTeachers.map(t => t.id));
+        const supPenc = pencList.filter(p => supIds.has(p.teacherId));
+
+        const f1List = supPenc.filter(p => p.phase === 'Fasa 1');
+        const f2List = supPenc.filter(p => p.phase === 'Fasa 2');
+
+        const f1Avg = f1List.length ? (f1List.reduce((acc, c) => acc + (c.totalScore || calculateStd4Score(c.scores)), 0) / f1List.length) : 0;
+        const f2Avg = f2List.length ? (f2List.reduce((acc, c) => acc + (c.totalScore || calculateStd4Score(c.scores)), 0) / f2List.length) : 0;
+        const allAvg = supPenc.length ? (supPenc.reduce((acc, c) => acc + (c.totalScore || calculateStd4Score(c.scores)), 0) / supPenc.length) : 0;
+        const taraf = getStd4Taraf(allAvg);
+
+        sheet1Data.push([
+          idx + 1,
+          sup.name,
+          sup.role,
+          supTeachers.length,
+          f1List.length,
+          f2List.length,
+          f1Avg.toFixed(2),
+          f2Avg.toFixed(2),
+          allAvg.toFixed(2),
+          taraf.label
+        ]);
+      });
+
+      // Sheet 2: Senarai Semua 48 Guru
+      const sheet2Data = [
+        ["SENARAI GURU & MARKAH PENCERAPAN STANDARD 4 SK RANGGU TAWAU"],
+        [],
+        ["No", "ID", "Nama Guru", "Jawatan / Opsyen", "Mata Pelajaran", "Kelas", "Pentadbir Penilai", "Skor Fasa 1 (%)", "Taraf F1", "Skor Fasa 2 (%)", "Taraf F2", "Purata Skor (%)", "Taraf Keseluruhan"]
+      ];
+
+      teachersList.forEach((t, idx) => {
+        const p1 = pencList.find(p => p.teacherId === t.id && p.phase === 'Fasa 1');
+        const p2 = pencList.find(p => p.teacherId === t.id && p.phase === 'Fasa 2');
+
+        const s1 = p1 ? (p1.totalScore || calculateStd4Score(p1.scores)) : null;
+        const s2 = p2 ? (p2.totalScore || calculateStd4Score(p2.scores)) : null;
+
+        let avg = null;
+        if (s1 !== null && s2 !== null) avg = (s1 + s2) / 2;
+        else if (s1 !== null) avg = s1;
+        else if (s2 !== null) avg = s2;
+
+        sheet2Data.push([
+          idx + 1,
+          t.id,
+          t.name,
+          t.role || 'Guru',
+          t.subject,
+          t.class,
+          t.supervisor,
+          s1 !== null ? s1.toFixed(2) : "-",
+          s1 !== null ? getStd4Taraf(s1).label : "Belum",
+          s2 !== null ? s2.toFixed(2) : "-",
+          s2 !== null ? getStd4Taraf(s2).label : "Belum",
+          avg !== null ? avg.toFixed(2) : "-",
+          avg !== null ? getStd4Taraf(avg).label : "-"
+        ]);
+      });
+
+      // Sheet 3: Perincian Rubrik PdPc
+      const sheet3Data = [
+        ["PERINCIAN 8 RUBRIK STANDARD 4 SETIAP GURU SK RANGGU"],
+        [],
+        ["ID", "Nama Guru", "Fasa", "Tarikh", "4.1.1 (Perancang)", "4.2.1 (Pengawal Pr.)", "4.2.2 (Pengawal Su.)", "4.3.1 (Pembimbing)", "4.4.1 (Minda)", "4.4.2 (Emosi)", "4.5.1 (Penilai)", "4.6.1 (Murid Aktif)", "Jumlah (%)", "Taraf", "Kekuatan Guru", "Cadangan Penambahbaikan"]
+      ];
+
+      pencList.forEach(p => {
+        const sc = p.scores || {};
+        const tot = p.totalScore || calculateStd4Score(sc);
+        sheet3Data.push([
+          p.teacherId,
+          p.teacherName,
+          p.phase,
+          p.date,
+          sc["4.1.1"] || "-",
+          sc["4.2.1"] || "-",
+          sc["4.2.2"] || "-",
+          sc["4.3.1"] || "-",
+          sc["4.4.1"] || "-",
+          sc["4.4.2"] || "-",
+          sc["4.5.1"] || "-",
+          sc["4.6.1"] || "-",
+          tot.toFixed(2),
+          getStd4Taraf(tot).label,
+          p.strength || "",
+          p.feedback || ""
+        ]);
+      });
+
+      const wb = XLSX.utils.book_new();
+      const ws1 = XLSX.utils.aoa_to_sheet(sheet1Data);
+      const ws2 = XLSX.utils.aoa_to_sheet(sheet2Data);
+      const ws3 = XLSX.utils.aoa_to_sheet(sheet3Data);
+
+      XLSX.utils.book_append_sheet(wb, ws1, "Rumusan Pentadbir");
+      XLSX.utils.book_append_sheet(wb, ws2, "Senarai Semua Guru");
+      XLSX.utils.book_append_sheet(wb, ws3, "Perincian Rubrik PdPc");
+
+      const todayStr = new Date().toISOString().slice(0, 10);
+      XLSX.writeFile(wb, `SKPM_Standard4_PdPc_SK_Ranggu_${todayStr}.xlsx`);
+      showToast("Fail Excel Standard 4 berjaya dimuat turun!", "success");
+    } catch (err) {
+      console.error("Std4 Excel error:", err);
+      alert("Ralat eksport Excel: " + err.message);
+    }
+  }
+
   // Export Excel (.xlsx)
   function exportToExcel() {
     if (typeof XLSX === 'undefined') {
@@ -1441,6 +4917,16 @@
 
   // Attach Public API to window
   window.SKPMApp = {
+    setSupervisorFilter: setSupervisorFilter,
+    setStd4PhaseFilter: setStd4PhaseFilter,
+    setStd4Search: setStd4Search,
+    renderStandard4Module: renderStandard4Module,
+    openStd4Modal: openStd4Modal,
+    closeStd4Modal: closeStd4Modal,
+    setModalRubricScore: setModalRubricScore,
+    saveStd4FromModal: saveStd4FromModal,
+    openStd4Print: openStd4Print,
+    exportStd4Excel: exportStd4Excel,
     loadFromStorage: loadFromStorage,
     saveToStorage: saveToStorage,
     renderApp: renderApp,
@@ -1473,6 +4959,14 @@
 
   // Backwards compatibility for inline HTML onclick calls
   window.switchTab = switchTab;
+  window.setSupervisorFilter = setSupervisorFilter;
+  window.setStd4PhaseFilter = setStd4PhaseFilter;
+  window.setStd4Search = setStd4Search;
+  window.openStd4Modal = openStd4Modal;
+  window.closeStd4Modal = closeStd4Modal;
+  window.saveStd4FromModal = saveStd4FromModal;
+  window.openStd4Print = openStd4Print;
+  window.exportStd4Excel = exportStd4Excel;
   window.jumpToItem = jumpToItem;
   window.toggleAction = toggleAction;
   window.toggleQuality = toggleQuality;
